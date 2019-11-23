@@ -8,6 +8,7 @@
             <ul class="list-group">
               <% cocktail.doses.each do |dose| %>
                 <li class="list-group-item"><%= dose.description %> <%= dose.ingredient.name %></li>
+
               <% end %>
             </ul>
           </p>
